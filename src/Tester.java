@@ -51,6 +51,7 @@ public class Tester
 		
 		while(b[0])					  // b[0] correspond to check method
 		{
+			System.out.print("INPUT ");
 			String i = sc.nextLine();
 			b = G.check(i,null);
 			
@@ -62,7 +63,8 @@ public class Tester
 			}
 			 
 			 else if(!b[0]&&b[1])     //b[0] is false when bomb is checked
-			{						 
+			{				
+				System.out.print("INPUT ");
 				String s = sc.nextLine();
 				
 				if(s.equals("undo")&&(G.Undoleft)>=0)      //giving user the chance to undo
