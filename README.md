@@ -95,4 +95,4 @@ Undoes left 6
 2 | | 
 | 4 | 
 You won the game with 15 moves and 2 undoes.
-```
+Hurray!
